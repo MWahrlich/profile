@@ -224,6 +224,7 @@ thead {
 }
 
 .card-table-head {
-  font-size: 40px;
+  font-size: 28px;
+  vertical-align: top;
 }
 
