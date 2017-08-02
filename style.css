@@ -3,7 +3,6 @@
 }*/
 
 /*font*/
-
 @font-face {
     font-family: 'acre-medium';
     src: url('acre-medium-webfont.woff2') format('woff2'),
@@ -28,6 +27,7 @@ h1 {
   color: #3f4045;
   /*make background same to gradient color*/
 }
+
 h2 {
   text-align: center;
   font-size: 24px;
@@ -49,6 +49,14 @@ a:hover {
 
 table {
   width: 100%;
+}
+
+thead {
+  line-height: 20px;
+  padding: 10px;
+  background-color: #3f4045;
+  color: #ffffff;
+  border-collapse: collapse;
 }
 
 /*Media*/
@@ -155,12 +163,23 @@ table {
   text-align: center;
 }
 
-.frame {
+.circle-frame {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  border-radius: 50%;
   margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.square-frame {
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .img-sizing {
@@ -204,4 +223,11 @@ table {
   width: 30%;
 }
 
+.card-table-head {
+  font-size: 40px;
+}
+
+.table-text-top-left {
+  margin-left: 20px;
+}
 
