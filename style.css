@@ -58,7 +58,7 @@ a:hover {
 }
 
 .container-title {
-  width: 73.48%;
+  width: 75%;
   margin: 0px auto;
   position: fixed;
   left: 50%;
@@ -155,6 +155,7 @@ a:hover {
   width: 100%;
   height: auto;
   overflow: hidden;
+  display: inline-block;
 }
 
 .card-collection ul{
