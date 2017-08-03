@@ -1,0 +1,40 @@
+/* Your profile header CSS code here */
+.profile-header-wrapper {
+  background: #FFFFFF;
+}
+
+.profile-header-container img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-header-container h1 {
+  color: #3f4045;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.profile-header-container h2 {
+  color: #3f4045;
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+}
+.profile-header-infos {
+  padding: 20px;
+  text-align: left;
+}
+
+.profile-img-container {
+}
+
+.flex-profile {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+

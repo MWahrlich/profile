@@ -1,0 +1,23 @@
+.circle-frame {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.square-frame {
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.img-sizing {
+  width: 100%;
+  height: auto;
+}

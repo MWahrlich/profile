@@ -2,6 +2,12 @@
   border: thin solid red;
 }*/
 
+@import url("components/avatar.css");
+@import url("components/profile_header.css");
+@import url("components/table.css");
+@import url("components/tabs.css");
+
+
 /*font*/
 @font-face {
     font-family: 'acre-medium';
@@ -163,28 +169,13 @@ thead {
   text-align: center;
 }
 
-.circle-frame {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.square-frame {
-  width: 60%;
-  height: 60%;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.img-sizing {
-  width: 100%;
-  height: auto;
+.card-collection {
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .card-collection ul{
@@ -199,32 +190,6 @@ thead {
   margin: 0;
 }
 
-.card-table {
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-
-.card-table th{
-  font-size: 28px;
-  padding: 10px;
-  text-align: center;
-}
 
 
-.card-table p{
-  font-size: 15px;
-  line-height: 20px;
-  text-align: justify;
-}
-
-.table-left {
-  width: 30%;
-}
-
-.card-table-head {
-  font-size: 28px;
-  vertical-align: top;
-}
 
